@@ -82,20 +82,8 @@ function CreateForms() {
                                     className="mt-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
                                 <option value="text">Text</option>
                                 <option value="select">Auswahl</option>
-                                <option value="checkbox">Checkbox</option>
-                                <option value="radio">Radiobutton</option>
                                 <option value="number">Nummer</option>
-                                <option value="textarea">Textfeld</option>
-                                <option value="email">E-Mail</option>
-                                <option value="range">Spanne</option>
-                                <option value="search">Suche</option>
-                                <option value="tel">Telefonnummer</option>
-                                <option value="url">URL</option>
-                                <option value="Time">Zeit</option>
-                                <option value="datetime">Datum/Uhrzeit</option>
-                                <option value="datetime-local">Datum/Uhrzeit lokal</option>
-                                <option value="week">Woche</option>
-                                <option value="month">Monat</option>
+                                <option value="date">Datum/Uhrzeit</option>
                             </select>
                         </div>
                     </div>

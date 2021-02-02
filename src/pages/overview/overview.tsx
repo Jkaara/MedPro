@@ -40,7 +40,7 @@ function Overview() {
                 {forms.map((data: any) => {
                     return (
                         <div className="flex m-4" key={data.formName}>
-                            <OverviewItem className="h-8 w-4/6"/>
+                            <OverviewItem className="h-8 w-4/6" {...data}/>
                         </div>
                     );
                 })}
